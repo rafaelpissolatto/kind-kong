@@ -68,10 +68,10 @@ Edit the file [argocd-metallb.yaml](config/argocd-metallb.yaml) adding the ip ra
 
 > /etc/hosts
 ```bash
-192.168.32.2	httpbin.local
-192.168.32.2	grafana.local
-192.168.32.2	prometheus.local
-192.168.32.2	argocd.local
+172.18.0.2	httpbin.local
+172.18.0.2	grafana.local
+172.18.0.2	prometheus.local
+172.18.0.2	argocd.local
 ```
 
 ## Install ArgoCD
